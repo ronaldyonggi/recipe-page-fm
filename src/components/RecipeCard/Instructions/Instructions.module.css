@@ -1,0 +1,29 @@
+@import '../../../styles/variables.css';
+
+.container {
+  margin-bottom: var(--spacing-lg);
+}
+
+.title {
+  color: var(--color-brown-800);
+  font-size: 1.75rem;
+  margin-bottom: var(--spacing-lg);
+  font-family: var(--font-family-serif);
+  font-weight: 700;
+}
+
+.list {
+  list-style: decimal;
+  padding-left: 4%;
+}
+
+.list li {
+  padding-left: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.5;
+}
+
+.list li::marker {
+  color: var(--color-brown-800);
+  font-weight: 700;
+}
