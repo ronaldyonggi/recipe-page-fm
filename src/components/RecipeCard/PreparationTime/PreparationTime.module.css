@@ -1,0 +1,37 @@
+@import '../../../styles/variables.css';
+
+.container {
+  background-color: var(--color-rose-50);
+  border-radius: 8px;
+  margin-bottom: var(--spacing-lg);
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+  padding-left: 6%;
+}
+
+.title {
+  color: var(--color-rose-800);
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-md);
+  font-weight: 700;
+}
+
+.timeList {
+  padding-left: 1.5rem;
+  margin-bottom: 3vh;
+  list-style-type: disc;
+}
+
+.timeList li {
+  margin-bottom: var(--spacing-md);
+  padding-left: var(--spacing-lg);
+}
+
+strong {
+  font-weight: 700;
+}
+
+.timeList li::marker {
+  color: var(--color-rose-800);
+  font-size: 0.75rem;
+}
