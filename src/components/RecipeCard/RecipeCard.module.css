@@ -1,0 +1,46 @@
+@import '../../styles/variables.css';
+
+.card {
+  background-color: var(--color-white);
+  border-radius: 12px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 34px;
+  width: 60%;
+}
+
+.image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.title {
+  margin-top: var(--spacing-lg);
+  font-size: 2.0rem;
+  margin-bottom: var(--spacing-lg);
+  font-family: var(--font-family-serif);
+  color: var(--color-stone-900);
+  font-weight: 700;
+}
+
+.description {
+  color: var(--color-stone-600);
+  margin-bottom: var(--spacing-lg);
+  line-height: 1.5;
+}
+
+.divider {
+  border: 0.3px solid var(--color-stone-150);
+  margin: var(--spacing-lg) 0;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    max-width: 100%;
+  }
+
+
+  .title, .description {
+    text-align: justify;
+  }
+}
