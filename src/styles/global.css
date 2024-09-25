@@ -1,7 +1,15 @@
 @import './variables.css';
 
 body {
-    background-color: var(--color-stone-100);
-    font-family: var(--font-family-outfit);
-    color: var(--color-stone-600);
+  background-color: var(--color-stone-100);
+  font-family: var(--font-family-outfit);
+  color: var(--color-stone-600);
+  line-height: 1.2;
+  padding-top: 10vh;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    padding: 0;
+  }
 }
