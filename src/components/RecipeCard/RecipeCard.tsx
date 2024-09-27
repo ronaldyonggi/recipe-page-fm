@@ -8,11 +8,13 @@ import styles from './RecipeCard.module.css';
 export default function RecipeCard() {
   return (
     <div className={styles.card}>
-      <img
-        className={styles.image}
-        src={omeletteImage}
-        alt='Image of omelette'
-      />
+      <div className={styles.imageContainer}>
+        <img
+          className={styles.image}
+          src={omeletteImage}
+          alt='Image of omelette'
+        />
+      </div>
       <h1 className={styles.title}>Simple Omelette Recipe</h1>
       <p className={styles.description}>
         An easy and quick dish, perfect for any meal. This classic omelette
